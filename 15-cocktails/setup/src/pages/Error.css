@@ -1,0 +1,9 @@
+.errorPage {
+   display: flex;
+   justify-content: center;
+}
+
+.errorContanier{
+    text-align: center;
+  text-transform: capitalize;
+}

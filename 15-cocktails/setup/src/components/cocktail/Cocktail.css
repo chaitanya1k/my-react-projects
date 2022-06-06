@@ -1,0 +1,48 @@
+.errorDataHeading{
+text-align: center;
+color: green;
+margin-top: 75px;
+}
+
+.cocktailsSection{
+    width: 1000px;
+   margin: 100px auto;
+}
+.cocktailsSection > h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.cocktailsContanier{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+   margin-top: 100px;
+}
+.cocktaiList{
+  background: white;
+  
+}
+
+.imageContanier img{
+   height: 320px;
+}
+.infoContainer{
+ padding: 30px 15px;
+}
+
+.glassName{
+    font-weight: bolder;
+}
+.cocktailButton{
+    display: block;
+    background: green;
+    border: transparent;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+

@@ -1,0 +1,26 @@
+.nav-bar{
+    width: 100%;
+    background: white;
+   padding: 1rem 2rem;
+}
+.nav-center{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.nav-links{
+    display: flex;
+    column-gap: 25px;
+}
+.nav-links a{
+    text-transform: capitalize;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    padding: 0.25rem 0.5rem;
+    transition: var(--mainTransition);
+}
