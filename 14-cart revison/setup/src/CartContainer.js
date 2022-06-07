@@ -8,7 +8,7 @@ const CartContanier = () => {
     return (
         <div className="cart-contanier-section">
             <div className="section-header">
-                <h2>Your bag</h2>
+                <h2>Your bags</h2>
             </div>
             <div className="cart-items">
                 {cart.map((item) => {
@@ -19,7 +19,7 @@ const CartContanier = () => {
             <div className="section-footer">
                 <div className="hrLine"></div>
                 <div className="totalDiv">
-                    <p>Total</p>
+                    <p>Totals</p>
                     <p>$2123</p>
                 </div>
                 <button className="clear-btn">clear cart</button>
