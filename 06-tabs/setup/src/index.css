@@ -173,7 +173,7 @@ Jobs
   background: transparent;
   border-color: transparent;
   text-transform: capitalize;
-  font-size: 1.25rem;
+  font-size: 1.26rem;
   letter-spacing: var(--spacing);
   margin: 0 0.5rem;
   transition: var(--transition);
@@ -231,7 +231,7 @@ Jobs
     justify-content: flex-start;
   }
   .job-btn {
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
   }
   .active-btn {
     box-shadow: -2px 0 var(--clr-primary-5);
@@ -255,7 +255,7 @@ Jobs
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
   display: block;
-  width: 12rem;
+  width: 11.5rem;
   text-align: center;
   margin: 0 auto;
   margin-top: 3rem;
